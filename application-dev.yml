@@ -1,25 +1,2 @@
 server:
-  port: 10000
-  
-spring:
-  application:
-    name: config-server
-  cloud:
-    config:
-      label: master #配置仓库的分支
-      server:
-        git:
-          uri: https://github.com/kyleInJava/spring-cloud-config.git
-          search-paths:
-          - spring-cloud-config #配置仓库路径
-          username: 
-          password: 
-    
-eureka:
-  instance:
-    instance-id: ${spring.application.name}:${server.port}
-    prefer-ip-address: true
-  client:
-    serviceUrl:
-      defaultZone: http://localhost:7777/eureka/
-      
+  port: 10086 
