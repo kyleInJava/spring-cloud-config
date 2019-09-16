@@ -1,7 +1,3 @@
 server:
   port: 10086 
-  
-eureka:
-  instance:
-    instance-id: config-client
-    prefer-ip-address: false
+name: stan
